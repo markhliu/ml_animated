@@ -56,16 +56,19 @@ Learn how to creatiely apply deep learning to any situation. The Cart Pole game 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/compare_cartpole.gif" />
 
 ## Ch10: Create Your Own Game Environment
-Learn to create your own game environment that mimic the OpenAI Gym. The animation below shows your own Fozen Lake game environment, with graphical game positions.
+Learn to create your own game environment that mimic the OpenAI Gym. The animation below shows your own Fozen Lake game environment, with graphical game boards.
+
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_steps.gif" />
 
+## Ch11: Deep Learning Game Strategies: Tic Tac Toe
+Create a game environment for Tic Tac Toe with all the features and methods of a typical OpenAI Gym game environment. You'll use the deep learning game strategy to play a full game. At each step, the animation will show the game board on the left, and the probability of winning for each next move on the right. The best move is highlighted.
 
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/ttt_DL_steps.gif" />
+
+## Ch12: Deep Learning Game Strategies: Connect Four
+Create a game environment for Connect Four. Use the deep learning game strategy to play a full game. At each step, the animation will show the game board on the left, and the probability of winning for each next move on the right. The best move is highlighted.
+
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/conn_DL_steps.gif" />
 
 
 ## Ch2: Gradient Descent -- Where Magic Happens
