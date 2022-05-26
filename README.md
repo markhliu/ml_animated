@@ -25,30 +25,23 @@ Learn how to create graphs and plots; convert them into animations; combine mult
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
 
-The goal of this repo is to train the agent so that it learns to dig a tunnel on the side
-of the wall to send the ball to the back of the wall to score more efficiently.
+## Ch3: Introduction to Neural Networks
+See how a neural network learns from ten pairs of values: 𝑋=−40, 𝑌=−40;𝑋=0, 𝑌=32;...;𝑋=100, 𝑌=212. The model first assigns values to w and b in 𝑌=w𝑋+b; it then uses gradient descent to adjust the values of w and b; finally it figures out a linear relation between 𝑋 and 𝑌 that corresponds to the relation between Celsius and Fahrenheit 𝑌=1.8∗𝑋+32. This animation shows the value of w and b in each step:
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/nn.gif" />
 
-In 2013, the DeepMind team achieved this by using a different approach, namely,
-the Deep Q Learning method. Policy Gradient is a different method in reinforcement learning.
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
 
-Here I am using the policy gradients approach, inspired by this post:
-http://karpathy.github.io/2016/05/31/rl/
-by Stanford computer scientist Andrej Karpathy.
-
-The code I used is largely based on Andrej's code for the Atari Pong below
-https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
-
-Andrej uses the Atari Pong game but I use the Breakout game here. 
-With Breakout, things are more complicated in two ways: 
-first, in the Pong game, you only need to move the 
-paddle up or down, which is a binary choice. Second, in the Pong game,
-the reward structure is more nuanced: -1 for missing,
-1 for winning, and 0 if nothing happens. 
-
-In contrast, in Breakout, you need four choices: left, right, no movement, 
-or firing the ball. Second, the reward is either 0 or 1. There is no reward
-of -1 if the paddle misses the ball.
-
-I changed the binary-classification to multiple-classification; 
-Then I hardcode in a reward of -1 if the paddle misses the ball by counting 
-the numbers of lives left for the agent. 
