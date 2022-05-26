@@ -1,6 +1,6 @@
 # Machine Learning, Animated
 
-![fourgames_h](https://user-images.githubusercontent.com/50116107/170499945-128bf650-2085-490d-9c85-d699b80669e9.gif)
+![](https://user-images.githubusercontent.com/50116107/170499945-128bf650-2085-490d-9c85-d699b80669e9.gif)
 
 ## Explain Machine Learning through Animated Steps
 
