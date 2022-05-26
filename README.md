@@ -51,12 +51,13 @@ Unerstand how image augmentation and convolutional layers help neural networks l
 Desgin deep learning game strategies and apply to the Frozen Lake game in OpenAI Gym. see how the agent uses the trained model to make decisions on what's the best next move. The deep neural network predicts the probability of winning if the agent were to take a certain action. The agent picks the action with the highest probability of winning, step by step.
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_stages.gif" />
 
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch9: Apply Deep Learning to Any Situation
+Learn how to creatiely apply deep learning to any situation. The Cart Pole game in OpenAI Gym poses a challenge since there is no clear definition of winning and losing. You'll classify the last ten steps as losing and the rest as winning and successfully train the model. The animation shows how the game is played with (right) and without (left) deep learning strategy.
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/compare_cartpole.gif" />
+
+## Ch10: Create Your Own Game Environment
+Learn to create your own game environment that mimic the OpenAI Gym. The animation below shows your own Fozen Lake game environment, with graphical game positions.
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_steps.gif" />
 
 
 ## Ch2: Gradient Descent -- Where Magic Happens
