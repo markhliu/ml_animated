@@ -19,7 +19,7 @@ This free online book is here to help. It summarizes machine learning in three w
 
 Better yet, the book will use animation to show step by step how machines learn: it shows you the initial values, the change in each step, and the final converged parameters and predictions. 
 
-## Ch1: Create Animation
+## Ch1: Create Animations
 Learn how to create graphs and plots; convert them into animations; combine multiple animations into one.
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/pieplot.gif" />
 
@@ -81,36 +81,34 @@ Learn to use a finite number of discrete states to approximate for the infinite 
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/mountain_car_compare.gif" />
 
-## Chapter 15: Deep Q-Learning
+## Ch15: Deep Q-Learning
 When the number of possible scenarios is too large, we use a deep neural network to approximate the Q values. You'll put the graph of the cart pole on the left. You'll draw on the right the Q-values of moving the cart left and moving the cart right, respectively. The move with higher Q-value is then highlighted in red.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/cartpole_DeepQ.gif" />
 
-## Chapter 16: Play Atari Pong with Policy Gradients
+## Ch16: Play Atari Pong with Policy Gradients
 Use policy gradients to train an agent to play Atari Pong. The left side shows what happens if the agent chooses random moves. The right side shows when the agent is trained with policy gradients. The trained agent plays perfectly, earning a score of 21-0.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/pong_compare.gif" />
 
 
-## Chapter 17: Play Breakout with Policy Gradients
+## Ch17: Play Breakout with Policy Gradients
 Extend the policy gradients approach to Breakout. The agent learns to send the ball to the back to the wall to score more efficiently.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/breakout_tunnel.gif" />
 
-## Chapter 18: Double Deep Q Learning
-Deep Q learning has a well-known problem of overestimating Q values. To overcome this, we need to use double Q learning: we'll use one deep Q network for training and another deep Q network for predicting, and periodically updated the target Q network with the weights from the training Q network.
-
-The double deep Q learning can play Atari Games very efficiently. You can see that the agent has sent the ball to the back of the wall five consecutive times. It's clear that the agent has "learned" to do this on purpose because this is a more efficient way of earning rewards than aiming at the bricks directly:
+## Ch18: Double Deep Q Learning
+Deep Q learning has a well-known problem of overestimating Q values. To overcome this, we need to use double Q learning: we'll use one deep Q network for training and another deep Q network for predicting, and periodically updated the target Q network with the weights from the training Q network. The double deep Q learning can play Atari Games very efficiently. You can see that the agent has sent the ball to the back of the wall five consecutive times. It's clear that the agent has "learned" to do this on purpose because this is a more efficient way of earning rewards than aiming at the bricks directly:
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/breakout_highlights.gif" />
 
 
-## Chapter 19: Space Invaders with Double Deep Q Learning
+## Ch19: Space Invaders with Double Deep Q Learning
 Apply double deep Q learning to Space Invaders. The trained agent eliminates all invaders. You'll also learn how to enhance the quality of the graphs so that the animation has four times the resolution as the original OpenAI Gym videos. 
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/spaceinvaders_enhanced.gif" />
 
-## Chapter 20: Scale Up Double Deep Q Learning
+## Ch20: Scale Up Double Deep Q Learning
 You'll learn to scale up the double deep Q network to play any Atari game. To make this point clear, you'll define a function that trains any Atari games with the same deep Q network. All you need is to put in the name of the game as the only argument in the function. Below are trained Seaquest and Beam Rider games.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/Seaquest_BeamRider.gif" />
