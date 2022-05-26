@@ -18,7 +18,9 @@ This free online book is here to help. It summarizes machine learning in three w
 Better yet, the book will use animation to show step by step how machines learn: it shows you the initial values, the change in each step, and the final converged parameters and predictions. 
 
 ## Ch1: Create Animation
-
+Learn how to create graphs and plots; convert them into animations; combine multiple animations into one.
+%%HTML
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/pieplot.gif" />
 
 The goal of this repo is to train the agent so that it learns to dig a tunnel on the side
 of the wall to send the ball to the back of the wall to score more efficiently.
