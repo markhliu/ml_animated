@@ -19,8 +19,11 @@ Better yet, the book will use animation to show step by step how machines learn:
 
 ## Ch1: Create Animation
 Learn how to create graphs and plots; convert them into animations; combine multiple animations into one.
-%%HTML
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/pieplot.gif" />
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
 
 The goal of this repo is to train the agent so that it learns to dig a tunnel on the side
 of the wall to send the ball to the back of the wall to score more efficiently.
