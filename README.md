@@ -78,12 +78,10 @@ Show in the Frozen Lake game how the Q-learning works in each step of the game. 
 
 ## Ch14: Q-Learning with Continuous States
 Learn to use a finite number of discrete states to approximate for the infinite number of continuous states. Create an animation to compare the mountain car game before and after the Q-learning.
-
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/mountain_car_compare.gif" />
 
 ## Ch15: Deep Q-Learning
 When the number of possible scenarios is too large, we use a deep neural network to approximate the Q values. You'll put the graph of the cart pole on the left. You'll draw on the right the Q-values of moving the cart left and moving the cart right, respectively. The move with higher Q-value is then highlighted in red.
-
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/cartpole_DeepQ.gif" />
 
 ## Ch16: Play Atari Pong with Policy Gradients
