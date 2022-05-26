@@ -1,5 +1,5 @@
 # Machine Learning, Animated
-
+(click on the animations to see actions)
 ![](https://user-images.githubusercontent.com/50116107/170499945-128bf650-2085-490d-9c85-d699b80669e9.gif)
 
 ## Explain Machine Learning through Animated Steps
@@ -33,9 +33,9 @@ See how a neural network learns from ten pairs of values: 𝑋=−40, 𝑌=−40
 We need activation functions such as ReLu to approximate nonlinear relations (as in the left of the animation); or sigmoid to squash values to the range [0, 1] so it can be interprested as a probability (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/relusigmoid.gif" />
 
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch5: Binary Classification
+See how a neural network with sigmoid activation learns from image-label pairs. During the course of training, the model weights gradually change and the prediction on a picture of a horse goes closer and closer to 1 (as in the left of the animation) and the prediction on a picture of a deer goes closer and closer to 0 (as in the right of the animation).
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/p_horse_deer.gif" />
 ## Ch2: Gradient Descent -- Where Magic Happens
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
