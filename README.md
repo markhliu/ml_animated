@@ -1,5 +1,7 @@
 # Machine Learning, Animated
 (click on the animations to see actions)
+
+
 ![](https://user-images.githubusercontent.com/50116107/170499945-128bf650-2085-490d-9c85-d699b80669e9.gif)
 
 ## Explain Machine Learning through Animated Steps
@@ -36,13 +38,72 @@ We need activation functions such as ReLu to approximate nonlinear relations (as
 ## Ch5: Binary Classification
 See how a neural network with sigmoid activation learns from image-label pairs. During the course of training, the model weights gradually change and the prediction on a picture of a horse goes closer and closer to 1 (as in the left of the animation) and the prediction on a picture of a deer goes closer and closer to 0 (as in the right of the animation).
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/p_horse_deer.gif" />
+
+## Ch6: Convolutional Neural Networks
+Learn how convolutional layers extract features from images. See a 3 by 3 filter scans over a 3 by 3 image with zero-padding (as in the left of the animation) and a 2 by 2 filter scans over a 6 by 6 image with stride=2 (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/slide_stride.gif" />
+
+## Ch7: Multi-Class Image Classification
+Unerstand how image augmentation and convolutional layers help neural networks learn from image-label pairs. As the training progresses, the 10th value of the prediction on a picture of a truck goes closer and closer to 1 and the rest to 0 (as in the left of the animation) and the 7th value of the prediction on a picture of a frog goes closer and closer to 1 (as in the right of the animation).
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/p_truck_frog.gif" />
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
 ## Ch2: Gradient Descent -- Where Magic Happens
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
 ## Ch2: Gradient Descent -- Where Magic Happens
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
+
 ## Ch2: Gradient Descent -- Where Magic Happens
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
+
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch2: Gradient Descent -- Where Magic Happens
+Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+
 
