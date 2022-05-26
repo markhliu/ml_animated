@@ -47,9 +47,9 @@ Learn how convolutional layers extract features from images. See a 3 by 3 filter
 Unerstand how image augmentation and convolutional layers help neural networks learn from image-label pairs. As the training progresses, the 10th value of the prediction on a picture of a truck goes closer and closer to 1 and the rest to 0 (as in the left of the animation) and the 7th value of the prediction on a picture of a frog goes closer and closer to 1 (as in the right of the animation).
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/p_truck_frog.gif" />
 
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch8: Apply Deep Learning to the Frozen Lake Game
+Desgin deep learning game strategies and apply to the Frozen Lake game in OpenAI Gym. see how the agent uses the trained model to make decisions on what's the best next move. The deep neural network predicts the probability of winning if the agent were to take a certain action. The agent picks the action with the highest probability of winning, step by step.
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_stages.gif" />
 
 ## Ch2: Gradient Descent -- Where Magic Happens
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
