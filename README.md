@@ -29,9 +29,10 @@ Gradient descent guides the model on how to adjust parameters so they converge. 
 See how a neural network learns from ten pairs of values: 𝑋=−40, 𝑌=−40;𝑋=0, 𝑌=32;...;𝑋=100, 𝑌=212. The model first assigns values to w and b in 𝑌=w𝑋+b; it then uses gradient descent to adjust the values of w and b; finally it figures out a linear relation between 𝑋 and 𝑌 that corresponds to the relation between Celsius and Fahrenheit 𝑌=1.8∗𝑋+32. This animation shows the value of w and b in each step:
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/nn.gif" />
 
-## Ch2: Gradient Descent -- Where Magic Happens
-Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
-<img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
+## Ch4: Activation Functions
+We need activation functions such as ReLu to approximate nonlinear relations (as in the left of the animation); or sigmoid to squash values to the range [0, 1] so it can be interprested as a probability (as in the right of the animation)
+<img src="https://gattonweb.uky.edu/faculty/lium/ml/relusigmoid.gif" />
+
 ## Ch2: Gradient Descent -- Where Magic Happens
 Gradient descent guides the model on how to adjust parameters so they converge. The learning rate controls how fast to adust: too fast, the parameters never converge (as in the left of the animation; too small, it takes too long to train the model (as in the right of the animation)
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
