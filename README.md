@@ -44,7 +44,7 @@ Learn how convolutional layers extract features from images. See a 3 by 3 filter
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/slide_stride.gif" />
 
 ## Ch7: Multi-Class Image Classification
-Unerstand how image augmentation and convolutional layers help neural networks learn from image-label pairs. As the training progresses, the 10th value of the prediction on a picture of a truck goes closer and closer to 1 and the rest to 0 (as in the left of the animation) and the 7th value of the prediction on a picture of a frog goes closer and closer to 1 (as in the right of the animation).
+Understand how image augmentation and convolutional layers help neural networks learn from image-label pairs. As the training progresses, the 10th value of the prediction on a picture of a truck goes closer and closer to 1 and the rest to 0 (as in the left of the animation) and the 7th value of the prediction on a picture of a frog goes closer and closer to 1 (as in the right of the animation).
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/p_truck_frog.gif" />
 
 ## Ch8: Apply Deep Learning to the Frozen Lake Game
@@ -56,7 +56,7 @@ Learn how to creatiely apply deep learning to any situation. The Cart Pole game 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/compare_cartpole.gif" />
 
 ## Ch10: Create Your Own Game Environment
-Learn to create your own game environment that mimic the OpenAI Gym. The animation below shows your own Fozen Lake game environment, with graphical game boards.
+Learn to create your own game environment that mimic the OpenAI Gym. The animation below shows your own Frozen Lake game environment, with graphical game boards.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_steps.gif" />
 
