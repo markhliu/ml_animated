@@ -21,7 +21,7 @@ This free online book is here to help. It summarizes machine learning in three w
 Better yet, the book will use animations to show step by step how machines learn: the initial parameter values, the adjustment in each step, and the final converged parameters and predictions. 
  
 
-## Ch1: Create Animations <a href="https://gattonweb.uky.edu/faculty/lium/python.html"  target="_blank">Ch1: Create Animations</a>
+## <a href="[https://gattonweb.uky.edu/faculty/lium/python.html](https://github.com/markhliu/ml_animated/blob/main/Ch01CreateAnimation.ipynb)"  target="_blank">Ch1: Create Animations</a>
 Create graphs and plots; convert them into animations; combine multiple animations into one.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/pieplot.gif" />
