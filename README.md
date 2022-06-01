@@ -26,7 +26,7 @@ Create graphs and plots; convert them into animations; combine multiple animatio
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/pieplot.gif" />
 
-## Ch2: <a href="https://github.com/markhliu/ml_animated/blob/main/Ch02GradientDescent.ipynb"  target="_blank">Gradient Descent -- Where Magic Happens</a>
+## <a href="https://github.com/markhliu/ml_animated/blob/main/Ch02GradientDescent.ipynb"  target="_blank">Ch2: Gradient Descent -- Where Magic Happens</a>
 Gradient descent guides the model to adjust parameters so they converge. The learning rate controls how fast to adjust: too fast, the parameters never converge (left of the animation below); too slow, it takes too long to train the model (right side)
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/largetosmall.gif" />
