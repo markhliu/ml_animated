@@ -51,7 +51,7 @@ Learn how convolutional layers extract features from images. See a 3 by 3 filter
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/slide_stride.gif" />
 
 ## <a href="https://github.com/markhliu/ml_animated/blob/main/Ch07MultiImageClassification.ipynb"  target="_blank">Ch7: Multi-Class Image Classifications</a>
-Unerstand how image augmentation and convolutional layers help neural networks learn from image-label pairs. As the training progresses, the 10th value of the prediction on a picture of a truck goes closer and closer to 1 and the rest to 0 (as in the left of the animation); the 7th value of the prediction on a picture of a frog goes closer and closer to 1 (as in the right of the animation).
+Understand how image augmentation and convolutional layers help neural networks learn from image-label pairs. As the training progresses, the 10th value of the prediction on a picture of a truck goes closer and closer to 1 and the rest to 0 (as in the left of the animation); the 7th value of the prediction on a picture of a frog goes closer and closer to 1 (as in the right of the animation).
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/p_truck_frog.gif" />
 
