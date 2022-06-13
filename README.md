@@ -56,7 +56,7 @@ Understand how image augmentation and convolutional layers help neural networks 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/p_truck_frog.gif" />
 
 ## <a href="https://github.com/markhliu/ml_animated/blob/main/Ch08FrozenLakeDeepLearning.ipynb"  target="_blank">Ch8: Apply Deep Learning to the Frozen Lake Game</a>
-Design deep learning game strategies and apply to the Frozen Lake game in OpenAI Gym. see how the agent uses the trained model to make decisions on what's the best next move. The deep neural network predicts the probability of winning if the agent were to take a certain action. The agent picks the action with the highest probability of winning, step by step.
+Design deep learning game strategies and for the Frozen Lake game in OpenAI Gym. See how the agent uses the trained model to make decisions on what's the best next move. The deep neural network predicts the probability of winning if the agent were to take a certain action hypothetically. The agent picks the action with the highest probability of winning, step by step.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_stages.gif" />
 
