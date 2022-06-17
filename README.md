@@ -66,7 +66,7 @@ Learn how to creatively apply deep learning to any situation. The Cart Pole game
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/compare_cartpole.gif" />
 
 ## <a href="https://github.com/markhliu/ml_animated/blob/main/Ch10CreateGameEnv.ipynb"  target="_blank">Ch10: Create Your Own Game Environments</a>
-Learn to create your own game environments that mimic the OpenAI Gym. The animation below shows your own Fozen Lake game environment, with graphical game boards.
+Learn to create your own game environments that mimic the OpenAI Gym. The animation below shows your own Frozen Lake game environment, with graphical game boards.
 
 <img src="https://gattonweb.uky.edu/faculty/lium/ml/frozen_steps.gif" />
 
